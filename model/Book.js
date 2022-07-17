@@ -30,4 +30,4 @@ const bookSchema = new Schema({
     }
 });
 
-module.exports = mongoose.model("Book",bookSchema);
+module.exports = mongoose.model("Book",bookSchema); //It probably means that we are making a model inside our mongoose Database which will be named books and would have schema like that of bookSchema you are creating.
